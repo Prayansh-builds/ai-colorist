@@ -1,2 +1,3 @@
-# ai-colorist
-AI colorist that grades photos and videos from plain-English commands (exposure, curves, masks) without repainting the image.
+# AI Colorist
+An AI tool that colour grades images and videos from plain-English commands, without repainting the picture.
+Status: building Step 2 (basic grading dials).
