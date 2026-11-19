@@ -268,7 +268,9 @@ class Session:
     def reset(self):
         self.history.clear()
 
-def export_full(session, photo_name, out_dir="/content/drive/MyDrive/ai-colorist/outputs"):
+def export_full(session, photo_name, out_dir=None):
+    if out_dir is None:
+        out_dir = "/content/drive/MyDrive/ai-colorist/outputs" if os.path.exists("/content") else "./outputs"
     os.makedirs(out_dir, exist_ok=True)
     full = load_image(photo_name)
     for step in session.history:

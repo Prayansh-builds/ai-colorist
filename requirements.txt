@@ -4,3 +4,7 @@ matplotlib
 scipy
 ipywidgets
 google-genai
+Pillow
+torch
+torchvision
+transformers

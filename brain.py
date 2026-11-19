@@ -5,7 +5,7 @@ from google import genai
 from google.genai import types
 from colorist import luma, PRESETS, HUES
 
-MODELS = ["gemini-3.8-flash", "gemini-3.7-flash", "gemini-3.5-flash", "gemini-3.1-flash-lite"]
+MODELS = ["gemini-2.5-flash", "gemini-2.0-flash", "gemini-1.5-flash", "gemini-3.8-flash", "gemini-3.7-flash"]
 
 SYSTEM_TEMPLATE = """You are the brain of an AI colour-grading tool. The user types a request; you reply with a JSON plan that a program applies to the photo. Reply with JSON only: no words before or after it, no code fences.
 
