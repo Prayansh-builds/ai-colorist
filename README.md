@@ -7,4 +7,4 @@ An AI tool that colour grades photos (and soon video) from plain-English command
 - Guardrails: skin-tone protection, automatic highlight/shadow safety, undo, and exportable recipes
 
 ## Status
-Photos: working, with classic masks, AI masks and mask refinement. Video: next. Android app: planned.
+Photos: working, with classic masks, AI masks and mask refinement. Video: reading, writing and fixed looks working; per-shot grading and mask tracking next. Android app: planned.
